@@ -749,10 +749,6 @@ const BottomNavigation = ({
                 onPress: () => handleTabPress(index),
                 testID: getTestID({ route }),
                 accessibilityLabel: getAccessibilityLabel({ route }),
-                accessibilityTraits: focused
-                  ? ['button', 'selected']
-                  : 'button',
-                accessibilityComponentType: 'button',
                 accessibilityRole: 'button',
                 accessibilityState: { selected: true },
                 style: styles.item,
